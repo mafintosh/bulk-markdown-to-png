@@ -6,6 +6,8 @@ Render a stream of markdown files to a tarball of pngs
 npm install -g bulk-markdown-to-png
 ```
 
+[![build status](http://img.shields.io/travis/mafintosh/bulk-markdown-to-png.svg?style=flat)](http://travis-ci.org/mafintosh/bulk-markdown-to-png)
+
 ## Usage
 
 ```
