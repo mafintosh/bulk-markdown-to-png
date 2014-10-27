@@ -1,0 +1,33 @@
+{
+  "name": "bulk-markdown-to-png",
+  "version": "0.0.0",
+  "description": "Render a stream of markdown files to a tarball of pngs",
+  "main": "index.js",
+  "dependencies": {
+    "concat-stream": "^1.4.6",
+    "duplexify": "^3.2.0",
+    "github-markdown-css": "^1.2.0",
+    "marked": "^0.3.2",
+    "ndjson": "^1.2.3",
+    "phantom-render-stream": "^1.3.0",
+    "tar-stream": "^1.0.2",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/bulk-markdown-to-png.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/bulk-markdown-to-png/issues"
+  },
+  "homepage": "https://github.com/mafintosh/bulk-markdown-to-png",
+  "keywords": [
+    "tar",
+    "markdown",
+    "png",
+    "dat"
+  ]
+}
