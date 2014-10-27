@@ -25,10 +25,10 @@ module.exports = function() {
     }))
 
     r.end(html)
-  }), function(cb) {
+  }, function(cb) {
     pack.finalize()
     cb()
-  })  
+  }))  
 
   return duplexify(parse, pack)
 }
