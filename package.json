@@ -16,6 +16,9 @@
   "devDependencies": {
     "tape": "^3.0.1"
   },
+  "bin": {
+    "bulk-markdown-to-png": "./bin.js"
+  },
   "scripts": {
     "test": "tape test.js"
   },
