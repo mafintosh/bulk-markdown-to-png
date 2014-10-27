@@ -15,7 +15,7 @@ dat cat --gte dat --limit 20 | bulk-markdown-to-png > readmes.tar
 
 ## Programmatic usage
 
-```
+``` js
 var render = require('bulk-markdown-to-png')
 var fs = require('fs')
 
