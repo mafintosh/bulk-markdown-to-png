@@ -29,6 +29,14 @@ transform.end()
 transform.pipe(fs.createWriteStream('readmes.tar'))
 ```
 
+## Using docker
+
+Since this contains some binary dependencies there is also a docker build available
+
+```
+dat cat --gte dat --limit 20 | docker run -i --rm mafintosh/bulk-markdown-to-png > readmes.tar
+```
+
 ## License
 
 MIT

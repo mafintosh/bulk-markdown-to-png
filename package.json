@@ -20,7 +20,8 @@
     "bulk-markdown-to-png": "./bin.js"
   },
   "scripts": {
-    "test": "tape test.js"
+    "test": "tape test.js",
+    "start": "node bin.js"
   },
   "repository": {
     "type": "git",
