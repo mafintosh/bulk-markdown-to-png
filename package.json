@@ -1,6 +1,6 @@
 {
   "name": "bulk-markdown-to-png",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Render a stream of markdown files to a tarball of pngs",
   "main": "index.js",
   "dependencies": {
