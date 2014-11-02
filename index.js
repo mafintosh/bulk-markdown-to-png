@@ -21,7 +21,7 @@ module.exports = function() {
     var r = render()
 
     r.pipe(concat(function(png) {
-      pack.entry({name:(data.key || dat.name)+'.png'}, png, cb)
+      pack.entry({name:(data.key || data.name)+'.png'}, png, cb)
     }))
 
     r.end(html)
